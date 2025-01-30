@@ -1,0 +1,60 @@
+/* Container styling */
+.recipe-ratings-container {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+  }
+  
+  /* Form styling */
+  .recipe-ratings-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Label styling */
+  .recipe-ratings-container label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input and textarea styling */
+  .recipe-ratings-container input[type="number"],
+  .recipe-ratings-container textarea {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .recipe-ratings-container textarea {
+    resize: vertical;
+    height: 80px;
+  }
+  
+  /* Button styling */
+  .recipe-ratings-container button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .recipe-ratings-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Success message styling */
+  .recipe-ratings-container .success-message {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  

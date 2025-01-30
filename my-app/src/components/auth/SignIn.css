@@ -1,0 +1,58 @@
+/* General container styling */
+.signin-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff3e6; /* Light, warm background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Header styling */
+  .signin-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #cf240a; /* Deep red color */
+  }
+  
+  /* Input fields styling */
+  .signin-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .signin-input:focus {
+    border-color: #cf240a; /* Accent color on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(207, 36, 10, 0.3);
+  }
+  
+  /* Button styling */
+  .signin-button {
+    background-color: #cf240a; /* Deep red button */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .signin-button:hover {
+    background-color: #fec208; /* Golden hover color */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #d9534f; /* Red for error text */
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  

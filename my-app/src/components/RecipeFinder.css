@@ -1,0 +1,115 @@
+.recipe-finder-container {
+  background-color: #fff6e5; /* Subtle warm background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-finder-header {
+  color: #d32f2f; /* Red tone */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.cuisine-button, .diet-button {
+  background-color: #ffd54f; /* Yellow button */
+  color: #d32f2f; /* Red text */
+  border: 1px solid #d32f2f;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cuisine-button.active, .diet-button.active {
+  background-color: #d32f2f; /* Red */
+  color: #ffffff;
+}
+
+.cuisine-button:hover, .diet-button:hover {
+  background-color: #ffb300; /* Bright yellow */
+}
+
+.recipe-button {
+  background-color: #d32f2f;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Add more space between the button and elements above */
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.recipe-list-container {
+  margin-top: 20px;
+}
+
+.recipe-item {
+  background-color: #fff3e0; /* Light warm color */
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px; /* Increase margin for better spacing */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation */
+}
+
+.recipe-item h3 {
+  margin-bottom: 15px; /* Add space between the title and other elements */
+}
+
+.recipe-item img {
+  margin-bottom: 15px; /* Add space between the image and buttons */
+}
+
+.recipe-item-button {
+  background-color: #ffd54f;
+  color: #d32f2f;
+  border: 1px solid #d32f2f;
+  border-radius: 5px;
+  padding: 8px 15px; /* Increase padding for better button appearance */
+  margin-top: 10px; /* Add space between buttons */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recipe-item-button:hover {
+  background-color: #ffb300;
+}
+
+.close-details-button {
+  background-color: #d32f2f;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px; /* Add space above the close button */
+}
+
+.recipe-details-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; /* Space between grid items */
+}
+
+.recipe-details-section {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-details-section h4 {
+  margin-bottom: 10px;
+}
