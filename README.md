@@ -1,4 +1,5 @@
-![Recipe Finder Banner](https://github.com/user-attachments/assets/89b9de45-c238-4c38-9b04-decaf84738f4)
+![Recipe Finder Banner](./1.png)
+
 
 # Recipe Finder and Grocery List Application
 
