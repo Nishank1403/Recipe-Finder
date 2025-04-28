@@ -1,3 +1,5 @@
+![Recipe Finder Banner](https://github.com/user-attachments/assets/89b9de45-c238-4c38-9b04-decaf84738f4)
+
 # Recipe Finder and Grocery List Application
 
 A full-stack web application that helps users find allergen-aware recipes based on available ingredients and generate grocery lists automatically.
@@ -73,7 +75,7 @@ Copy
 Edit
 python manage.py runserver
 🖼️ Screenshots
-![Recipe Finder Banner](https://github.com/user-attachments/assets/89b9de45-c238-4c38-9b04-decaf84738f4)
+
 ![2](https://github.com/user-attachments/assets/88a6882c-888f-47ed-9e20-09b9084a05ca)
 ![3](https://github.com/user-attachments/assets/580ae711-6388-4766-a5c7-b5075e6f7700)
 ![4](https://github.com/user-attachments/assets/175de6d1-c7d9-45c1-bddd-b2d91ea767fb)
