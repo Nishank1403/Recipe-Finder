@@ -85,7 +85,7 @@ python manage.py runserver
 📜 License
 This project is licensed under the MIT License.
 
-🤝 Connect with Me
+🤝 Connect with Me: https://www.linkedin.com/in/nishank-mhatre/
 LinkedIn: Nishank Mhatre
 
 GitHub: Nishank1403
